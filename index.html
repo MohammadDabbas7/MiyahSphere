@@ -11,460 +11,158 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="preloader-content">
-            <img src="images/logo.png" alt="MiyahSphere" class="preloader-logo">
+
+<!-- Preloader -->
+<div class="preloader">
+    <div class="preloader-content">
+        <img src="images/logo.png" alt="MiyahSphere" class="preloader-logo">
+    </div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-brand">
+            <img src="images/logo.png" alt="MiyahSphere Logo" class="logo">
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#contact" class="btn-nav">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
         </div>
     </div>
+</nav>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <img src="images/logo.png" alt="MiyahSphere Logo" class="logo">
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#solution">Solution</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#contact" class="btn-nav">Contact</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <video autoplay muted loop playsinline class="hero-bg-video">
-            <source src="images/hero-video.mp4" type="video/mp4">
-        </video>
-        <div class="hero-overlay"></div>
-        <div class="container hero-container">
-            <div class="hero-content">
-                <div class="badge">Jordan's Water Future</div>
-                <h1 class="hero-title">Miyah<span>Sphere</span></h1>
-                <p class="hero-subtitle">Autonomous Pipeline Intelligence</p>
-                <p class="hero-description">Precision leak detection saving millions of liters daily. Our sphere travels inside your pipes, finds problems you can't see, and maps every meter with surgical accuracy.</p>
-                <div class="hero-buttons">
-                    <a href="#features" class="btn btn-primary">Discover Technology</a>
-                    <a href="#video-demo" class="btn btn-secondary">Watch Demo</a>
-                </div>
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <video autoplay muted loop playsinline class="hero-bg-video">
+        <source src="images/hero-video.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="container hero-container">
+        <div class="hero-content">
+            <div class="badge">Jordan's Water Future</div>
+            <h1 class="hero-title">Miyah<span>Sphere</span></h1>
+            <p class="hero-subtitle">Autonomous Pipeline Intelligence</p>
+            <p class="hero-description">
+                Precision leak detection saving millions of liters daily.
+                Our sphere travels inside your pipes, finds problems you can't see,
+                and maps every meter with surgical accuracy.
+            </p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary">Discover Technology</a>
+                <a href="#video-demo" class="btn btn-secondary">Watch Demo</a>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <span>Scroll to explore</span>
-            <div class="scroll-arrow">↓</div>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Stats Bar -->
-    <section class="stats-bar">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <h3>52%</h3>
-                    <p>NRW in Jordan</p>
-                </div>
-                <div class="stat-item">
-                    <h3>99.2%</h3>
-                    <p>Detection Accuracy</p>
-                </div>
-                <div class="stat-item">
-                    <h3>150-1200mm</h3>
-                    <p>Pipe Diameter Range</p>
-                </div>
-                <div class="stat-item">
-                    <h3>0.5-16 bar</h3>
-                    <p>Pressure Range</p>
-                </div>
+<!-- Stats Bar -->
+<section class="stats-bar">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item"><h3>52%</h3><p>NRW in Jordan</p></div>
+            <div class="stat-item"><h3>99.2%</h3><p>Detection Accuracy</p></div>
+            <div class="stat-item"><h3>150-1200mm</h3><p>Pipe Diameter Range</p></div>
+            <div class="stat-item"><h3>0.5-16 bar</h3><p>Pressure Range</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Features -->
+<section id="features" class="features">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">What Makes It Work</span>
+            <h2>Built for Real Conditions</h2>
+        </div>
+
+        <div class="features-grid">
+
+            <div class="feature-card">
+                <h3>Runs on Water Flow</h3>
+                <p>No batteries to die mid-mission. Operates for hours.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- Problem & Solution -->
-    <section id="solution" class="problem-solution">
-        <div class="container">
-            <div class="ps-grid">
-                <div class="ps-card problem-card">
-                    <span class="ps-label">The Problem</span>
-                    <h2>Water's Disappearing Act</h2>
-                    <div class="big-stat">52%</div>
-                    <p class="big-stat-label">Lost Before It Reaches Homes</p>
-                    <ul class="ps-list">
-                        <li>52% of treated water vanishes in the pipes</li>
-                        <li>Decades-old infrastructure, no accurate maps</li>
-                        <li>Traditional methods: slow, expensive, inaccurate</li>
-                        <li>Jordan faces one of the world's worst water shortages</li>
-                    </ul>
-                </div>
-                <div class="ps-card solution-card">
-                    <span class="ps-label">The Solution</span>
-                    <h2>Find Leaks From Inside</h2>
-                    <div class="solution-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
-                        </svg>
-                    </div>
-                    <p class="solution-lead">Drop MiyahSphere into any access point. It flows with the water, listening for leaks, measuring pressure drops, and building a complete map of your network—automatically.</p>
-                    <div class="solution-features">
-                        <div class="sf-item">
-                            <svg class="sf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"/>
-                                <circle cx="12" cy="12" r="6"/>
-                                <circle cx="12" cy="12" r="2"/>
-                            </svg>
-                            <span>Hears leaks humans can't</span>
-                        </div>
-                        <div class="sf-item">
-                            <svg class="sf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                            <span>Pinpoints exact locations</span>
-                        </div>
-                        <div class="sf-item">
-                            <svg class="sf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="3" width="18" height="18" rx="2"/>
-                                <path d="M9 9h6v6H9z"/>
-                            </svg>
-                            <span>AI identifies patterns</span>
-                        </div>
-                        <div class="sf-item">
-                            <svg class="sf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-                            </svg>
-                            <span>Report in your inbox</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="feature-card">
+                <h3>Multiple Sensors</h3>
+                <p>Acoustic and pressure sensors catch hidden leaks.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>AI Pattern Recognition</h3>
+                <p>Learns normal pipe behavior and flags anomalies.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Fully Waterproof</h3>
+                <p>IP68 rated for harsh internal pipe environments.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Encrypted Data</h3>
+                <p>Infrastructure data protected with strong encryption.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section class="team">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">The Team</span>
+            <h2>Built by Engineers Who Care</h2>
+            <p>Local expertise solving Jordan's toughest water challenges</p>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-photo-placeholder"></div>
+                <h3>Zaina Shroof</h3>
+            </div>
+
+            <div class="team-card">
+                <div class="team-photo-placeholder"></div>
+                <h3>Sara Hawarneh</h3>
+            </div>
+
+            <div class="team-card">
+                <div class="team-photo-placeholder"></div>
+                <h3>Mohammad Dabbas</h3>
+            </div>
+
+            <div class="team-card">
+                <div class="team-photo-placeholder"></div>
+                <h3>Haroun Karkar</h3>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Video Demo Section -->
-    <section id="video-demo" class="video-demo">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">See It Work</span>
-                <h2>Inside the Pipes</h2>
-                <p>Watch the sphere travel through live water mains, detecting problems in real-time</p>
-            </div>
-            <div class="video-demo-container">
-                <div class="video-wrapper">
-                    <video controls class="demo-video">
-                        <source src="images/miahsphere-demo.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <div class="video-info">
-                    <div class="vi-item">
-                        <div class="vi-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
-                                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>
-                            </svg>
-                        </div>
-                        <div class="vi-content">
-                            <h4>Listen for Leaks</h4>
-                            <p>Picks up sounds your ears can't hear - the telltale hiss of water escaping under pressure</p>
-                        </div>
-                    </div>
-                    <div class="vi-item">
-                        <div class="vi-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="18" y1="20" x2="18" y2="10"/>
-                                <line x1="12" y1="20" x2="12" y2="4"/>
-                                <line x1="6" y1="20" x2="6" y2="14"/>
-                            </svg>
-                        </div>
-                        <div class="vi-content">
-                            <h4>Pressure Tracking</h4>
-                            <p>Constant monitoring catches pressure drops that signal leaks or unauthorized taps</p>
-                        </div>
-                    </div>
-                    <div class="vi-item">
-                        <div class="vi-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/>
-                                <line x1="8" y1="2" x2="8" y2="18"/>
-                                <line x1="16" y1="6" x2="16" y2="22"/>
-                            </svg>
-                        </div>
-                        <div class="vi-content">
-                            <h4>Pipeline Maps</h4>
-                            <p>Builds accurate route maps as it travels, within 0.5 meters accuracy</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Footer -->
+<footer id="contact" class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <h2>Miyah<span>Sphere</span></h2>
+            <p>
+                Autonomous leak detection for Jordan's water infrastructure.
+            </p>
+            <p>📍 Amman, Jordan</p>
+            <p>📧 info@miahsphere.com</p>
         </div>
-    </section>
-
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">What Makes It Work</span>
-                <h2>Built for Real Conditions</h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon icon-gradient-blue">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"/>
-                            <path d="M12 6v6l4 2"/>
-                        </svg>
-                    </div>
-                    <h3>Runs on Water Flow</h3>
-                    <p>No batteries to die mid-mission. The sphere moves with your water flow and operates for hours</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon icon-gradient-green">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
-                        </svg>
-                    </div>
-                    <h3>Multiple Sensors</h3>
-                    <p>Acoustic, pressure, and position sensors work together to catch what others miss</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon icon-gradient-purple">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                            <path d="M9 9h6v6H9z"/>
-                        </svg>
-                    </div>
-                    <h3>AI Pattern Recognition</h3>
-                    <p>Learns what normal pipes sound like, instantly flags anything unusual</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon icon-gradient-orange">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                            <circle cx="12" cy="10" r="3"/>
-                        </svg>
-                    </div>
-                    <h3>GPS Location</h3>
-                    <p>Pinpoints problems to within half a meter. No more digging up entire streets</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon icon-gradient-pink">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
-                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
-                        </svg>
-                    </div>
-                    <h3>Fully Waterproof</h3>
-                    <p>IP68 rated. Handles high pressure, debris, and the harshest pipe conditions</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon icon-gradient-cyan">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                        </svg>
-                    </div>
-                    <h3>Encrypted Data</h3>
-                    <p>Military-grade security protects your infrastructure information</p>
-                </div>
-            </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MiyahSphere. All rights reserved.</p>
         </div>
-    </section>
+    </div>
+</footer>
 
-    <!-- How It Works -->
-    <section id="how-it-works" class="how-it-works">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">How It Works</span>
-                <h2>Four Simple Steps</h2>
-            </div>
-            <div class="steps-container">
-                <div class="step-item">
-                    <div class="step-number">1</div>
-                    <div class="step-content">
-                        <h3>Check Everything</h3>
-                        <p>Battery charged? Seals intact? Sensors working? Quick pre-flight takes 2 minutes</p>
-                    </div>
-                </div>
-                <div class="step-arrow">→</div>
-                <div class="step-item">
-                    <div class="step-number">2</div>
-                    <div class="step-content">
-                        <h3>Drop It In</h3>
-                        <p>Insert at any access point, activate with your phone, close the hatch</p>
-                    </div>
-                </div>
-                <div class="step-arrow">→</div>
-                <div class="step-item">
-                    <div class="step-number">3</div>
-                    <div class="step-content">
-                        <h3>Let It Travel</h3>
-                        <p>The sphere flows through your pipes, recording everything it hears and feels</p>
-                    </div>
-                </div>
-                <div class="step-arrow">→</div>
-                <div class="step-item">
-                    <div class="step-number">4</div>
-                    <div class="step-content">
-                        <h3>Get Your Report</h3>
-                        <p>AI analyzes the data and emails you a detailed map with every problem marked</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Technical Specs -->
-            <div class="tech-specs">
-                <h3>Technical Specifications</h3>
-                <div class="specs-grid">
-                    <div class="spec-item">
-                        <span class="spec-label">Diameter Range</span>
-                        <span class="spec-value">150-1200mm</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Pressure Range</span>
-                        <span class="spec-value">0.5-16 bar</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Battery Life</span>
-                        <span class="spec-value">6-8 hours</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Data Storage</span>
-                        <span class="spec-value">256GB</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Waterproof Rating</span>
-                        <span class="spec-value">IP68</span>
-                    </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Location Accuracy</span>
-                        <span class="spec-value">±0.5m</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Safety Notice -->
-    <section class="safety-notice">
-        <div class="container">
-            <div class="safety-content">
-                <div class="safety-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
-                        <line x1="12" y1="9" x2="12" y2="13"/>
-                        <line x1="12" y1="17" x2="12.01" y2="17"/>
-                    </svg>
-                </div>
-                <div class="safety-text">
-                    <h3>Professional Equipment</h3>
-                    <p>Requires trained operators. Always depressurize pipelines before deployment. Check seals before each use. Never retrieve from pressurized systems. Follow safety protocols at all times.</p>
-                </div>
-                <button class="btn btn-secondary">Download Safety Guide</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section class="team">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-label">The Team</span>
-                <h2>Built by Engineers Who Care</h2>
-                <p>Local expertise solving Jordan's toughest water challenges</p>
-            </div>
-            <div class="team-grid">
-                <div class="team-card">
-                    <div class="team-photo-placeholder"></div>
-                    <h3>Team Member</h3>
-                    <p class="role">Project Lead</p>
-                </div>
-                <div class="team-card">
-                    <div class="team-photo-placeholder"></div>
-                    <h3>Team Member</h3>
-                    <p class="role">Hardware Engineer</p>
-                </div>
-                <div class="team-card">
-                    <div class="team-photo-placeholder"></div>
-                    <h3>Team Member</h3>
-                    <p class="role">AI Specialist</p>
-                </div>
-                <div class="team-card">
-                    <div class="team-photo-placeholder"></div>
-                    <h3>Team Member</h3>
-                    <p class="role">Data Analyst</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact/Footer -->
-    <footer id="contact" class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-main">
-                    <h2>Miyah<span>Sphere</span></h2>
-                    <p>Autonomous leak detection for Jordan's water infrastructure. Working with the Ministry of Water and Irrigation to stop losses and secure water for future generations.</p>
-                    <div class="footer-contact">
-                        <div class="fc-item">
-                            <svg class="fc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                <polyline points="22,6 12,13 2,6"/>
-                            </svg>
-                            <span>info@miahsphere.com</span>
-                        </div>
-                        <div class="fc-item">
-                            <svg class="fc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                                <circle cx="12" cy="10" r="3"/>
-                            </svg>
-                            <span>Amman, Jordan</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-links-group">
-                    <div class="footer-links">
-                        <h4>Product</h4>
-                        <ul>
-                            <li><a href="#features">Features</a></li>
-                            <li><a href="#how-it-works">How It Works</a></li>
-                            <li><a href="#">Specifications</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-links">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#solution">About</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-links">
-                        <h4>Resources</h4>
-                        <ul>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Safety Guide</a></li>
-                            <li><a href="#">Support</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 MiyahSphere. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
